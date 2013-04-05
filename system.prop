@@ -13,11 +13,3 @@ ro.config.qc_lte_network_modes=true
 telephony.sms.pseudo_multipart=1
 ro.telephony.default_network=8
 telephony.lteOnCdmaDevice=1
-
-# Fields For VM Heapsize
-dalvik.vm.heapsize=512m
-dalvik.vm.heapmaxfree=8m
-dalvik.vm.heapminfree=512k
-dalvik.vm.heapstartsize=32m
-dalvik.vm.heapgrowthlimit=256m
-dalvik.vm.heaputilization=0.75
