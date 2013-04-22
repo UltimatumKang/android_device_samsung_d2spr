@@ -13,3 +13,7 @@ ro.config.qc_lte_network_modes=true
 telephony.sms.pseudo_multipart=1
 ro.telephony.default_network=8
 telephony.lteOnCdmaDevice=1
+telephony.sms.pseudo_multipart=1
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+persist.eons.enabled=false
