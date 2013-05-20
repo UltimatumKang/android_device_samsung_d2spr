@@ -16,10 +16,10 @@
 #
 
 # name
-PRODUCT_RELEASE_NAME := SPRGS3
+PRODUCT_RELEASE_NAME := N4
 
 # device
-$(call inherit-product-if-exists, device/samsung/d2spr/full_d2spr.mk)
+$(call inherit-product-if-exists, device/lge/d2spr/full_d2spr.mk)
 
 # gsm
 $(call inherit-product, vendor/ukg/config/common_gsm.mk)
@@ -32,16 +32,16 @@ $(call inherit-product, vendor/ukg/config/common_phone.mk)
 
 # products
 PRODUCT_DEVICE := d2spr
-PRODUCT_BRAND := Samsung
+PRODUCT_BRAND := Google
 PRODUCT_NAME := ukg_d2spr
-PRODUCT_MODEL := Samsung Galaxy S 3
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MODEL := Nexus 4
+PRODUCT_MANUFACTURER := LGE
 PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=ukg.d2spr.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 # overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_NUMBER=573038 \
-    PRODUCT_NAME=d2spr \
+    PRODUCT_NAME=occam \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
     PRIVATE_BUILD_DESC="d2spr-user 4.2.2 JDQ39 573038 release-keys" \
